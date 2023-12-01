@@ -9,3 +9,5 @@ USER $NB_USER
 
 # any additional packages
 RUN conda install pyspark
+
+RUN pip install tensorflow
